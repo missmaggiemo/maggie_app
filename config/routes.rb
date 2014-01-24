@@ -1,11 +1,16 @@
 MaggieApp::Application.routes.draw do
   
+  resources :messages, only: [:new, :create]
+  
   root 'static_pages#home'
   
   # static pages
   match '/about', to: 'static_pages#about', via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/projects', to: 'static_pages#projects', via: 'get'
+  
+  #email
+  match '/email', to: 'messages#new', via: 'get'
   
 end
 

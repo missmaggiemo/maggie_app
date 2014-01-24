@@ -286,3 +286,58 @@ footer {
 		width: 30vw;
 	}
 }
+
+//email
+
+.email {
+	input, select, .uneditable-input {
+		border: 1px solid #bbb;
+		width: 70%;
+		margin-bottom: 15px;
+		@include box_sizing;
+	}
+
+	.span8 {
+		float: center;
+		margin-left: auto;
+		margin-right: auto;
+		@media (max-width: 500px) {
+			width: 90vw;
+		}
+	}
+
+	input {
+		height: auto !important;
+	}
+	
+	textarea {
+		border: 1px solid #bbb;
+		width: 100%;
+		min-height: 80px;
+		margin-bottom: 15px;
+		@include box_sizing;
+	}
+	
+	.btn {
+		border: none;
+		background-color: $myBlueDark;
+		border-radius: 0;
+		background-image: none;
+		color: $white;
+		text-shadow: none;
+	}
+
+}
+
+//error
+
+#error_explanation {
+	color: $red;
+	margin-bottom: 20px;
+	font-size: 0.9em;
+	
+	.alert {
+		border-radius: 0;
+		border: none;
+	}
+}
