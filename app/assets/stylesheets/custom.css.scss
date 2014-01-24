@@ -157,56 +157,31 @@ footer {
 	color: $grayLight;
 	margin-right: auto;
 	margin-left: auto;
-	
-	.footer-inner {
-		width: 90%;
-		margin: auto;
-	}
-	
-	a {
-		color: $gray;
-		&:hover {
-			color: $grayDarker;
-			text-decoration: none;
-		}
-	}
-	small {
-		float: left;
-	}
-	ul {
-		float: right;
-		list-style: none;
-		li {
-			float: left;
-			margin-left: 30px;
-		}
-	}
-	@media (max-width: 500px) {
-		ul {
-			font-size: 0.75em;
-		}
-		small {
-			font-size: 0.75em;
-		}
-	}
+	float: center;
+	text-align: center;
 }
 
 
 //home
 
-.thumbnail {
-	border: 0;
-	box-shadow: none;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	background-color: $myBlue;
+.home {
+	min-height: 350px;
+	height: 70vh;
 	
-	img {
-		border: none;
-		border-radius:50%;
-		width: 40%;
+	.thumbnail {
+		border: 0;
+		box-shadow: none;
+		border-radius: 0;
+		-webkit-box-shadow: none;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		background-color: $myBlue;
+	
+		img {
+			border: none;
+			border-radius:50%;
+			width: 40%;
+		}
 	}
 }
 
@@ -227,6 +202,10 @@ footer {
 //contact
 
 .contact {
+	
+	min-height: 350px;
+	height: 70vh;
+	
 	p {
 		font-size: 1.2em;
 		margin-top: 20px;
