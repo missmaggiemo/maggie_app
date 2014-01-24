@@ -2,16 +2,31 @@
 
 Add shim for IE.
 
-## Static Pages
 
+## Static Pages
 
 *Change big blue banner to something...*
 
-*Projects should have a short description of each project, a picture, and a link to something visible.*
+
+### Projects
+
+*Should be some metion that this webpage was made me ME, and a link to the github repo for it.*
+
+*Projects should have a short description of each project.*
+
+*Something to show JPGs from a slideshow.*
+
+### Resume
+
+*Resume should include pictures.*
+
+
 
 
 ##Email
 
-*Contact should include an email form.*
+*Make email form actually email...*
 
 *With ActionMailer?*
+
+*Add link to footer for email page. Just "Email Me" or something.*
