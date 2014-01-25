@@ -3,6 +3,8 @@
 
 IPAD SUPPORT
 
+*header and footer are fixed, but pages still aren't resizing, e.g. Home*
+
 
 
 
