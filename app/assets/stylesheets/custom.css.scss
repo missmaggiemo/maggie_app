@@ -95,6 +95,7 @@ a {
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	-webkit-justify-content: space-between;
 	align-content: center;
 	padding-top: 9px;
 	padding-bottom: 9px;
@@ -128,6 +129,7 @@ a {
 	flex: 0.3 2 auto;
 	clear: both;
 	justify-content: space-around;
+	-webkit-justify-content: space-around;
 	
 	a {
 		padding: 9px;
@@ -157,6 +159,7 @@ footer {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
+		-webkit-justify-content: space-between;
 		align-content: center;
 		margin: auto;
 	}
@@ -170,6 +173,7 @@ footer {
 	clear: both;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	-webkit-justify-content: space-around;
 	align-items: center;
 	align-content: center;
 	min-height: 450px;
@@ -236,6 +240,7 @@ footer {
 	clear: both;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	-webkit-justify-content: space-around;
 	align-items: center;
 	align-content: center;
 	
@@ -296,6 +301,7 @@ footer {
 .project {
 	flex-flow: row;
 	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
 	align-content: flex-start;
 	
 	li {
