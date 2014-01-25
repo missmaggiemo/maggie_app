@@ -1,13 +1,6 @@
 # TODO
 
 
-IPAD SUPPORT
-
-*header and footer are fixed, but pages still aren't resizing, e.g. Home*
-
-
-
-
 ## Static Pages
 
 *Change big blue banner to something...*
