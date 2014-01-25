@@ -63,28 +63,14 @@ textarea{
 	background-color: $myBlue;
 }
 
-.flex {
-	clear: both;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: center;
-	
-	li {
-		list-style: none;
-	}
-	
-	img {
-		width: 10vw;
-		border: 5px solid $white;
-		border-radius: 0;
-		
-		@media (max-width: 500px) {
-			width: 15vw;
-		}
-	}
-}
+.page-wrap {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+ }
+
 
 a {
 	text-decoration: none;
@@ -180,6 +166,12 @@ footer {
 //home
 
 .home {
+	
+	clear: both;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
 	min-height: 450px;
 	height: 70vh;
 	
@@ -240,6 +232,28 @@ footer {
 	}
 }
 
+.social-links {
+	clear: both;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	
+	li {
+		list-style: none;
+	}
+	
+	img {
+		width: 10vw;
+		border: 5px solid $white;
+		border-radius: 0;
+		
+		@media (max-width: 500px) {
+			width: 15vw;
+		}
+	}
+}
+
 //about
 
 .resume {
@@ -280,7 +294,6 @@ footer {
 //projects
 
 .project {
-	display: flex;
 	flex-flow: row;
 	justify-content: flex-start;
 	align-content: flex-start;

@@ -26,7 +26,7 @@ IPAD SUPPORT
 
 ##Email
 
-
+*Nicer looking email form without shadows on boxes-- more flat design.*
 
 
 ### Heroku/DNS/Google Apps
