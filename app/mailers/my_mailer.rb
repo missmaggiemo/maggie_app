@@ -1,12 +1,12 @@
 class MyMailer < ActionMailer::Base
-  default from: "missmaggies.website@gmail.com"
-  default to: "margaret.m.moreno@gmail.com"
+  default from: "messages@missmaggiemo.com"
+  default to: "maggie@missmaggiemo.com"
   
   def visitor_email(message)
     @content = message.content
     @email = message.email
     @name = message.name
-    mail(subject: "Email from #{@name}!")
+    mail(subject: "Email from #{message.name}!")
   end
   
 end

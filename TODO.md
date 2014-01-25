@@ -30,3 +30,8 @@ Add shim for IE.
 *With ActionMailer?*
 
 *Add link to footer for email page. Just "Email Me" or something.*
+
+
+### Heroku/DNS/Google Apps
+
+*custom error pages*

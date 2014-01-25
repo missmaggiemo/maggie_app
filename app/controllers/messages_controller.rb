@@ -6,6 +6,7 @@ class MessagesController < ApplicationController
   
   def create
     @message = Message.new(message_params)
+    
     if @message.save
       MyMailer.visitor_email(@message).deliver
       flash[:success] = "Your email has been sent, and I can't wait to read it!"

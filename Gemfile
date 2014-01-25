@@ -13,6 +13,8 @@ gem 'will_paginate', '3.0.4'
 # pagination-- only 30 or so users show up on the index page at a time
 gem 'bootstrap-will_paginate', '0.0.9'
 # pretty pagination
+gem 'mail', '2.5.4'
+# emails
 
 
 group :development, :test do
