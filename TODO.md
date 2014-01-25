@@ -1,6 +1,9 @@
 # TODO
 
-Add shim for IE.
+
+IPAD SUPPORT
+
+
 
 
 ## Static Pages
