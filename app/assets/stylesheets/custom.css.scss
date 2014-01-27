@@ -345,8 +345,9 @@ footer {
 		float: center;
 		margin-left: auto;
 		margin-right: auto;
-		@media (max-width: 500px) {
-			width: 90vw;
+		
+		@media (max-width: 800px) {
+			width: 82vw;
 		}
 	}
 

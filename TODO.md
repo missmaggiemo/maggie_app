@@ -2,6 +2,8 @@
 
 Real copyright file.
 
+Fix email page in landscape mode on phone.
+
 
 ## Static Pages
 
