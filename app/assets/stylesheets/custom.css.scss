@@ -114,6 +114,10 @@ a {
 	letter-spacing: -1px;
 	font-weight: bold;
 	line-weight: 1;
+	@media (max-width: 569px) {
+		font-size: 2em;
+		line-height: 30px;
+	}
 	.main-logo {
 		text-align: left;
 	}
@@ -131,6 +135,9 @@ a {
 	clear: both;
 	justify-content: space-around;
 	-webkit-justify-content: space-around;
+	@media (max-width: 569px){
+		font-size: 1.1em;
+	}
 	
 	a {
 		padding: 9px;
