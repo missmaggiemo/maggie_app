@@ -2,9 +2,6 @@
 
 Real copyright file.
 
-Fix email page in landscape mode on phone.
-
-
 ## Static Pages
 
 *Change big blue banner to something...*
@@ -21,9 +18,9 @@ Fix email page in landscape mode on phone.
 *Resume should include pictures.*
 
 
-
-
 ##Email
+
+*Captcha or something to verify that the email is being sent by a real person as opposed to a robot.*
 
 *Nicer looking email form without shadows on boxes-- more flat design.*
 
