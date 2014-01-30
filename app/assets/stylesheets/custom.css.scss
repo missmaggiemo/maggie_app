@@ -306,6 +306,49 @@ footer {
 	}
 }
 
+.about {
+	.topic {
+		flex-flow: row;
+		-webkit-flex-flow: row;
+		justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		align-items: flex-start;
+		
+		margin-bottom: 15px;
+	
+		.pic {
+			width: 30vw;
+			height: auto;
+		}
+		
+		.text {
+			width: 60vw;
+		}
+		
+		div {
+			padding: 12px;
+		}
+	
+		a {
+			color: $grayDark;
+			text-decoration: none;
+			&:hover {
+				color: $myBlueDark;
+				text-decoration: none;
+			}
+		}
+		
+		@media (max-width: 750px) {
+			flex-flow: row wrap;
+			-webkit-flex-flow: row wrap;
+			
+			.pic {width: 80vw;}
+			.text {width: 80vw;}
+		}
+	}
+	
+}
+
 
 //projects
 
@@ -314,16 +357,23 @@ footer {
 	-webkit-flex-flow: row;
 	justify-content: flex-start;
 	-webkit-justify-content: flex-start;
-	align-content: flex-start;
+	align-items: flex-start;
 	
-	li {
-		padding: 10px;
-		
-		p:first-child {
-			font-style: italic;
-		}
+	margin-bottom: 15px;
+
+	.pic {
+		width: 30vw;
+		height: auto;
 	}
 	
+	.text {
+		width: 60vw;
+	}
+	
+	div {
+		padding: 12px;
+	}
+
 	a {
 		color: $grayDark;
 		text-decoration: none;
@@ -333,8 +383,12 @@ footer {
 		}
 	}
 	
-	img {
-		width: 30vw;
+	@media (max-width: 750px) {
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		
+		.pic {width: 80vw;}
+		.text {width: 80vw;}
 	}
 }
 

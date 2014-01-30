@@ -1,5 +1,7 @@
 # TODO
 
+About me page should have, instead of a resume, short paragraphs about myself, my education, and my work history.
+
 Real copyright file.
 
 ## Static Pages

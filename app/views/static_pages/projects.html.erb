@@ -1,36 +1,39 @@
 <div class="top center blue">
 	<h1>Here's what I've been up to lately.</h1>
-	<p>In reverse chronological order.</p>
+	<p></p>
 </div>
 
 <div class="projects">
 	<div class="page-wrap project">
-		<li>
-			<%= link_to image_tag("website_icon_big.png", alt: "This Website"), root_path%>
-		</li>
-		<li>
-			<p>I made the website you're looking at right now!</p>
-			<p>If you want to know more about it, feel free to browse the <%= link_to "Github repository", "https://github.com/missmaggiemo/maggie_app", target: "_blank"%> or <%= link_to "email me", email_path %>.</p>
-		</li>
+		<div class="page-wrap pic">
+			<%= link_to image_tag("website_icon.png", alt: "This Website"), root_path%>
+		</div>
+		<div class="page-wrap text">
+			<p><strong><em>I made the website you're looking at right now!</em></strong> <br><br>
+				If you want to know more about it, feel free to browse the <%= link_to "Github repository", "https://github.com/missmaggiemo/maggie_app", target: "_blank"%> or <%= link_to "email me", email_path %>.</p>
+		</div>
 	</div>
 	<div class="page-wrap project">
-		<li>
+		<div class="page-wrap pic">
 			<%= link_to image_tag("dev_survey.png", alt: "Developer Survey Results"), "http://blog.immersion.com/2013/11/evidence-for-the-awesomeness-of-haptics/", target: "_blank" %>
-		</li>
-		<li>
-			<p><%= link_to "Evidence for the Awesomeness of Haptics", "http://blog.immersion.com/2013/11/evidence-for-the-awesomeness-of-haptics/", target: "_blank" %></p>
-			<p>Blog post for Immersion Corporation.</p>
-		</li>
+		</div>
+		<div class="page-wrap text">
+			<p><strong><em><%= link_to "Evidence for the Awesomeness of Haptics", "http://blog.immersion.com/2013/11/evidence-for-the-awesomeness-of-haptics/", target: "_blank" %></em></strong><br><br>
+				<em>"We know that in the two years that the Immersion Haptic SDK has bee available, it has been downloaded over 3,000 times, and apps that utilize the Immersion Haptic SDK have been downloaded 24 million times. But what has been less clear to us is how developers feel about haptic feedback and the Immersion Haptic SDK. In August, Immersion launched a survey to collect feedback from developers on their experience with haptic feedback in apps and Immersion Haptic SDK.  The results were overwhelmingly positive and demonstrate the benefits and ease of use."</em><br><br>
+				Blog post for <%= link_to "Immersion Corporation", "http://blog.immersion.com/", target: "_blank"%>.
+			</p>
+		</div>
 	</div>
 	<div class="page-wrap project">
-		<li>
+		<div class="page-wrap pic">
 			<%= link_to image_tag("value_of_mmf.png", alt: "White Paper"), "http://www.immersion.com/markets/automotive/portal/resources/white-papers.html", target: "_blank" %>
-		</li>
-		<li>
-			<p>The Value of Multimodal Feedback in Automotive User Interfaces.</p>
-			<p>White paper for Immersion Corporation.</p>
-			<p></p>
-			<p><%= link_to "Download available at Immersion Corporation website.", "http://www.immersion.com/markets/automotive/portal/resources/white-papers.html", target: "_blank" %></p>
-		</li>
+		</div>
+		<div class="page-wrap text">
+			<p><strong><em>The Value of Multimodal Feedback in Automotive User Interfaces.</em></strong><br><br>
+				<em>"Multimodal feedback—audio and tactile feedback—can help mitigate the potential danger of touchscreens in cars by reducing glance times and improving reaction times to in-vehicle tasks. Moreover, users enjoy using interfaces with multimodal feedback more than visual feedback alone. This review includes a number of current studies exploring driver distraction, multimodal feedback in touchscreens, and multimodal feedback in vehicles. These studies show that multimodal feedback is an essential component for a safe, effective, and enjoyable in-vehicle touchscreen system."</em><br><br>
+				White paper for Immersion Corporation.<br><br>
+				<%= link_to "Download available at Immersion Corporation website.", "http://www.immersion.com/markets/automotive/portal/resources/white-papers.html", target: "_blank" %><br><br>
+			</p>
+		</div>
 	</div>
 </div>
