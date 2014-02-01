@@ -1,6 +1,5 @@
 # TODO
 
-Captcha or something to verify that the email is being sent by a real person as opposed to a robot.
 
 
 
