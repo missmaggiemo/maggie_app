@@ -12,6 +12,9 @@ MaggieApp::Application.routes.draw do
   #email
   match '/email', to: 'messages#new', via: 'get'
   
+  #system_error
+  match '/lost', to: 'system_error#lost', via: 'get'
+  
 end
 
 
