@@ -21,3 +21,21 @@
 
 en:
   hello: "Hello world"
+  
+  # activerecord:
+#     errors:
+#       full_messages:
+#         format: "%{message}"
+#   
+#   activerecord:
+#     attributes:
+#       messages:
+#         honeypot: "Checkbox"
+#     errors:
+#       models:
+#         messages:
+#           attributes:
+#             honeypot:
+#               not_blank: "You failed the human test. Please re-read the form and try again!"
+  
+  

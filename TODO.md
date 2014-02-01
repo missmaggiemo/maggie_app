@@ -1,8 +1,8 @@
 # TODO
 
-About me page should have, instead of a resume, short paragraphs about myself, my education, and my work history.
+Captcha or something to verify that the email is being sent by a real person as opposed to a robot.
 
-Real copyright file.
+
 
 ## Static Pages
 
@@ -11,13 +11,10 @@ Real copyright file.
 
 ### Projects
 
-*Projects should have a short description of each project.*
-
 *Something to show JPGs from a slideshow.*
 
 ### Resume
 
-*Resume should include pictures.*
 
 
 ##Email

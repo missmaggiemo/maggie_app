@@ -15,6 +15,7 @@ gem 'bootstrap-will_paginate', '0.0.9'
 # pretty pagination
 gem 'mail', '2.5.4'
 # emails
+# gem 'dynamic_form'
 
 
 group :development, :test do

@@ -10,6 +10,9 @@
 	
 	<%= f.label :content %>
 	<%= f.text_area :content, placeholder: "Your message here." %>
+	
+	<%= f.label :checkbox, "If you're human, leave this box unchecked!", id: "message_checkbox" %>
+	<%= f.check_box :checkbox%>
 
 	<%= f.submit "Send!", class: "btn btn-large"%>
 	<!-- message is passed as a local variable -->
