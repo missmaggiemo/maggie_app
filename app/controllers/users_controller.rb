@@ -18,7 +18,7 @@ class UsersController < ApplicationController
       # if the user has entered all the information
       sign_in @user
       # from sessions_helper.rb
-      flash[:success] = "Welcome to Maggie's Blog!"
+      flash[:success] = "Welcome, " + @user.name + "!"
       redirect_to @user
       # send user to their user page
     else

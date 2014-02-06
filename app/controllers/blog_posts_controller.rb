@@ -29,9 +29,9 @@ class BlogPostsController < ApplicationController
   end
   
   def update
-    if current_user.update_attributes(blog_post_params)
+    if @blog_post.update_attributes(blog_post_params)
       flash[:success] = "Blog post updated"
-      redirect_to blog_url
+      redirect_to blog_post_path(@blog_post.id)
     else
       render 'edit'
     end
@@ -42,10 +42,11 @@ class BlogPostsController < ApplicationController
     redirect_to blog_url
   end
   
+  
   private
   
   def blog_post_params
-    params.require("blog_post").permit(:category, :author, :content)
+    params.require("blog_post").permit(:category, :author, :title, :content)
   end
   
   def correct_user

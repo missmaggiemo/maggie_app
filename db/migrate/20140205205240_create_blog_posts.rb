@@ -4,6 +4,7 @@ class CreateBlogPosts < ActiveRecord::Migration
       t.integer :user_id
       t.string :category
       t.string :author
+      t.string :title
       t.text :content
 
       t.timestamps

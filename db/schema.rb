@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20140206002843) do
     t.integer  "user_id"
     t.string   "category"
     t.string   "author"
+    t.string   "title"
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"

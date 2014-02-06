@@ -36,6 +36,11 @@ ul {
 	list-style: none;
 }
 
+ol {
+  margin: 0;
+  list-style: none;
+}
+
 li {
 	list-style: none;
 }
@@ -355,7 +360,6 @@ footer {
 	
 }
 
-
 //projects
 
 .project {
@@ -458,6 +462,70 @@ footer {
 	}
 }
 
+//blog index
+
+//blog show
+
+//blog post form
+
+form {
+  textarea {
+    width: 80vw;
+    height: 20vw;
+  }
+}
+
+//blog post partial
+
+#blog_post_partial {
+  
+  margin-top: 15px;
+  margin-bottom: 50px;
+  
+  .page-wrap {
+  	justify-content: space-between;
+  	-webkit-justify-content: space-between;
+  	align-items: center;
+  }
+  
+  hr {
+    margin: 10px 0;
+    border-top: 1.5px solid #333;
+  }
+  
+  a {
+    color: #000;
+    
+    &:hover {
+      color: $myBlueDark;
+    }
+  }
+  
+  .post-title {
+    font-size: 1.7em;
+		line-height: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .time-author {
+    font-size: 0.9em;
+    margin: 10px;
+  }
+  
+  .content {
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #eee;
+  }
+  
+}
+
+//user show
+
 //system_error
 
 .maintenance {
@@ -504,4 +572,5 @@ footer {
     }
 	}
 }
+
 
