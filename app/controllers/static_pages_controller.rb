@@ -12,6 +12,9 @@ class StaticPagesController < ApplicationController
   def contact
   end
   
+  def blog
+  end
+  
 end
 
 

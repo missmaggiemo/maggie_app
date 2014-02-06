@@ -6,4 +6,4 @@
 
 User-agent: *
 Disallow: /messages/
-Disallow: /my_mailer/
+Disallow: /email/

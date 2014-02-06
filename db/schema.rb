@@ -11,10 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140201010259) do
+ActiveRecord::Schema.define(version: 20140206002843) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "blog_posts", force: true do |t|
+    t.integer  "user_id"
+    t.string   "category"
+    t.string   "author"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "blog_posts", ["user_id", "created_at"], name: "index_blog_posts_on_user_id_and_created_at", using: :btree
 
   create_table "messages", force: true do |t|
     t.string   "name"
@@ -26,5 +37,19 @@ ActiveRecord::Schema.define(version: 20140201010259) do
   end
 
   add_index "messages", ["email", "created_at"], name: "index_messages_on_email_and_created_at", unique: true, using: :btree
+
+  create_table "users", force: true do |t|
+    t.string   "name"
+    t.string   "username"
+    t.string   "email"
+    t.boolean  "admin",           default: false
+    t.string   "password_digest"
+    t.string   "remember_token"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["remember_token"], name: "index_users_on_remember_token", using: :btree
 
 end
