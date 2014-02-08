@@ -1,16 +1,25 @@
 <div class="top center blue">
-	<h1><%= @user.name %></h1>
-	<p>
-    <%if current_user?(@user)%>
-      <%= link_to "Sign out", signout_path, method: "delete" %>
-      <%if @user.admin? %>
-      |
-        <%= link_to "New post", new_blog_post_path %>
-      <%end%>
-    <%else%>
-    Last posted <%= time_ago_in_words(@user.blog_posts.reorder('id asc').last.created_at) %> ago.
-    <%end%>
-	</p>
+  <div class="page-wrap">
+    <div class="pic">
+      <%= image_tag(@user.image, alt: "User Image")%>
+    </div>
+    <div class="text">
+    	<h1><%= @user.name %></h1>
+    	<p>
+        <%if current_user?(@user)%>
+          <%= link_to "Edit", edit_user_path(@user)%>
+          |
+          <%= link_to "Sign out", signout_path, method: "delete" %>
+          <%if @user.admin? %>
+          |
+            <%= link_to "New post", new_blog_post_path %>
+          <%end%>
+        <%else%>
+        Last posted <%= time_ago_in_words(@user.blog_posts.reorder('id asc').last.created_at) %> ago.
+        <%end%>
+    	</p>
+    </div>
+  </div>
 </div>
 <div class="show-user">
     

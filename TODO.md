@@ -3,13 +3,11 @@
 
 ###Blog Posts
 
+*blog.missmaggiemo.com sub-domin, added as CNAME-- new rails project for blog, new Heroku*
+
 *email every post submitted to admin@missmaggiemo.com*
 
-*add pictures for users?*
-
 *add ability to see all posts in a category*
-
-*add a picture for each blog post?*
 
 
 Set up blog: model for posts, url for each post, "next" button for successive posts, categories (1 per post), email post to myself when I submit it, should have posting terminal and I should be the only person able to post (password to post? url w/out links on site? users for site?)

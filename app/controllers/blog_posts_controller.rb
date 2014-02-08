@@ -46,7 +46,7 @@ class BlogPostsController < ApplicationController
   private
   
   def blog_post_params
-    params.require("blog_post").permit(:category, :author, :title, :content)
+    params.require("blog_post").permit(:category, :author, :title, :content, :image)
   end
   
   def correct_user
