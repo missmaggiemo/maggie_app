@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   end
   
   def new
+    redirect_to blog_path if signed_in?
     @user = User.new
   end
   

@@ -492,9 +492,11 @@ form {
 #blog_post_partial {
   
   margin-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   
   .page-wrap {
+  	flex-flow: row wrap;
+  	-webkit-flex-flow: row wrap;
   	justify-content: space-between;
   	-webkit-justify-content: space-between;
   	align-items: center;
@@ -519,11 +521,24 @@ form {
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 10px;
+    width: 38vw;
+    text-align: left;
+		@media (max-width: 700px) {
+      width: 80vw;
+      text-align: left;
+		}
   }
   
   .time-author {
     font-size: 0.9em;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 38vw;
+    text-align: right;
+		@media (max-width: 700px) {
+      width: 80vw;
+      text-align: left;
+		}
   }
   
   .content {
