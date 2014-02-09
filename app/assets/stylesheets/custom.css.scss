@@ -487,6 +487,8 @@ form {
   }
 }
 
+
+
 //blog post partial
 
 #blog_post_partial {
@@ -611,6 +613,52 @@ form {
     
   }
 }
+
+//new user form
+
+.user-form {
+  
+	input, select, .uneditable-input {
+		border: 1px solid #bbb;
+		width: 100%;
+		margin-bottom: 15px;
+		@include box_sizing;
+	}
+
+	.span6 {
+		float: center;
+		margin-left: auto;
+		margin-right: auto;
+		
+		@media (max-width: 800px) {
+			width: 82vw;
+		}
+	}
+
+	input {
+		height: auto !important;
+	}
+	
+	textarea {
+		border: 1px solid #bbb;
+		width: 100%;
+		min-height: 150px;
+		margin-bottom: 15px;
+		@include box_sizing;
+	}
+	
+	.btn {
+    width: 60%;
+		border: none;
+		background-color: $myBlueDark;
+		border-radius: 0;
+		background-image: none;
+		color: $white;
+		text-shadow: none;
+	}
+}
+
+//signin form
 
 //system_error
 

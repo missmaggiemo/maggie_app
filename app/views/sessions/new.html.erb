@@ -7,17 +7,19 @@
 
 <%= form_tag sessions_path do %>
 
-<div class="row">
-	<div class="span6">
-	<%= label_tag :email%>
-	<%= text_field_tag :email, params[:email]%>
+<div class="user-form">
+  <div class="row">
+  	<div class="span6">
+  	<%= label_tag :email%>
+  	<%= text_field_tag :email, params[:email]%>
 	
-	<%= label_tag :password%>
-	<%= password_field_tag :password%>
+  	<%= label_tag :password%>
+  	<%= password_field_tag :password%>
 	
-	<%= button_tag "Sign in", class: "btn btn-large btn-primary"%>
+  	<%= button_tag "Sign in", class: "btn btn-large btn-primary"%>
 	
-	</div>
+  	</div>
+  </div>
 </div>
 
 <!-- <div class="actions"><%= submit_tag "Sign in"%></div> -->
