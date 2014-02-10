@@ -1,9 +1,6 @@
 MaggieApp::Application.routes.draw do
   
   resources :messages, only: [:new, :create]
-  resources :blog_posts
-  resources :users, only: [:new, :create, :show, :edit, :update, :destroy]
-  resources :sessions, only: [:new, :create, :destroy]
   
   root 'static_pages#home'
   
@@ -14,16 +11,6 @@ MaggieApp::Application.routes.draw do
   
   #email
   match '/email', to: 'messages#new', via: 'get'
-  
-  #users
-  match '/signup', to: 'users#new', via: 'get'
-  
-  #sessions
-  match '/signin', to: 'sessions#new', via: 'get'
-  match '/signout', to: 'sessions#destroy', via: 'delete'
-  
-  #blog_posts
-  match '/blog', to: 'blog_posts#index', via: 'get'
   
   #system_error
   # match '/lost', to: 'system_error#lost', via: 'get'
