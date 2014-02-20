@@ -9,8 +9,13 @@
 			<%= link_to image_tag("website_icon.png", alt: "This Website"), root_path%>
 		</div>
 		<div class="page-wrap text">
-			<p><strong><em>I made the website you're looking at right now!</em></strong> <br><br>
-				If you want to know more about it, <%= link_to "email me", email_path %>!</p>
+			<p><strong><em>I made the website you're looking at right now! 
+        <%= link_to "(And its accompanying blog.)", "http://blog.missmaggiemo.com/", target: "_blank"%>
+        </em></strong> 
+        <br><br>
+				This site is an ongoing project for me.
+        It's built with <%= link_to "Ruby on Rails", "http://rubyonrails.org/", target: "_blank"%>.
+        And if you want to know more about it, <%= link_to "email me", email_path %>!</p>
 		</div>
 	</div>
 	<div class="page-wrap project">
