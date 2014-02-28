@@ -1,5 +1,9 @@
 # TODO
 
+Add a page for CS 253 class projects!
+1. work on adding class projects to one website
+2. make it look pretty
+
 
 ###Blog Posts
 
