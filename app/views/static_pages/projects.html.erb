@@ -4,9 +4,10 @@
 </div>
 
 <div class="projects">
+  
 	<div class="page-wrap project">
 		<div class="page-wrap pic">
-			<%= link_to image_tag("website_icon.png", alt: "This Website"), root_path%>
+			<%= link_to image_tag("website_icon.png", alt: "This Website"), root_path, target: "_blank" %>
 		</div>
 		<div class="page-wrap text">
 			<p><strong><em>I made the website you're looking at right now! 
@@ -18,6 +19,21 @@
         And if you want to know more about it, <%= link_to "email me", email_path %>!</p>
 		</div>
 	</div>
+  
+	<div class="page-wrap project">
+		<div class="page-wrap pic">
+			<%= link_to image_tag("jquery_travel.png", alt: "jQuery Practice"), "http://codeschool-jquery.appspot.com/travel", target: "_blank" %>
+		</div>
+		<div class="page-wrap text">
+			<p><strong><em>My first website with JavaScript.</em></strong> 
+        <br><br>
+				This is a website that I built to practice using <%= link_to "JavaScript", "https://developer.mozilla.org/en-US/docs/Web/JavaScript", target: "_blank" %> and <%= link_to "jQuery", "http://jquery.com/", target: "_blank" %>. Many of the website's features come from the <%= link_to "Code School", "https://www.codeschool.com/", target: "_blank" %> tutorials <%= link_to "Try jQuery", "https://www.codeschool.com/courses/try-jquery", target: "_blank" %> and <%= link_to "jQuery: The Return Flight", "https://www.codeschool.com/courses/jquery-the-return-flight", target: "_blank" %>.
+        The website itself is built using <%= link_to "Google App Engine", "https://developers.google.com/appengine/", target: "_blank"%>.
+        </p>
+		</div>
+	</div>
+  
+  
 	<div class="page-wrap project">
 		<div class="page-wrap pic">
 			<%= link_to image_tag("dev_survey.png", alt: "Developer Survey Results"), "http://blog.immersion.com/2013/11/evidence-for-the-awesomeness-of-haptics/", target: "_blank" %>
@@ -29,6 +45,9 @@
 			</p>
 		</div>
 	</div>
+  
+  
+  
 	<div class="page-wrap project">
 		<div class="page-wrap pic">
 			<%= link_to image_tag("mmf_article.png", alt: "White Paper"), "http://www.immersion.com/markets/automotive/portal/resources/white-papers.html", target: "_blank" %>
@@ -41,4 +60,5 @@
 			</p>
 		</div>
 	</div>
+  
 </div>
