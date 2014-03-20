@@ -403,10 +403,12 @@ footer {
 	.pic {
 		width: 30vw;
 		height: auto;
+		padding: 12px 12px 12px 0;
 	}
 
 	.text {
 		width: 60vw;
+		padding: 12px 0 12px 12px;
 	}
 
 	div {
@@ -426,8 +428,15 @@ footer {
 		flex-flow: row wrap;
 		-webkit-flex-flow: row wrap;
 
-		.pic {width: 80vw;}
-		.text {width: 80vw;}
+		.pic {
+			width: 100%;
+			padding: 0;
+			margin: 0 0 10px;
+		}
+		.text {
+			width: 100%;
+			padding: 12px 0 12px 0;
+		}
 	}
 }
 
