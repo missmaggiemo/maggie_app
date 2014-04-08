@@ -221,6 +221,7 @@ footer {
 	}
 
 	.thumbnail {
+    text-align: center;
 		border: 0;
 		box-shadow: none;
 		border-radius: 0;
@@ -228,6 +229,10 @@ footer {
 		padding-bottom: 20px;
 		padding-top: 20px;
 		background-color: $myBlue;
+    
+    a {
+      margin: auto;
+    }
 
 		img {
 			border: none;
