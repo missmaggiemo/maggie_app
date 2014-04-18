@@ -26,5 +26,5 @@ doc/
 
 # Ignore dev and test environments
 
-/config/environments/dev*
-/config/environments/test*
+config/environments/development.rb
+config/environments/test.rb
