@@ -36,8 +36,8 @@ MaggieApp::Application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => "missmaggiemo.com",
-    :user_name            => ENV[GAPPS_USERNAME],
-    :password             => ENV[GAPPS_PASS],
+    :user_name            => "admin@missmaggiemo.com",
+    :password             => "Maggie_Moreno_Admin!-2014",
     :authentication       => :plain,
     :enable_starttls_auto => true
   }

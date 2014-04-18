@@ -22,3 +22,9 @@ doc/
 .DS_Store
 .idea
 .secret
+
+
+# Ignore dev and test environment
+
+/config/environments/development.rb
+/config/environments/test.rb
