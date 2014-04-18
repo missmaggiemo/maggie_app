@@ -24,7 +24,7 @@ doc/
 .secret
 
 
-# Ignore dev and test environment
+# Ignore dev and test environments
 
-/config/environments/development.rb
-/config/environments/test.rb
+/config/environments/dev*
+/config/environments/test*
