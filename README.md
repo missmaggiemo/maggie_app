@@ -2,9 +2,7 @@
 
 #### This is my webpage.
 
-Please don't hurt it.
-
-#### It's running Rails v 4.0.2.
+#### It's running Rails v 4.0.2 and Ruby v 4.0.0.
 
 And a bunch of other things. You can read the Gemfile if you really want to know.
 
