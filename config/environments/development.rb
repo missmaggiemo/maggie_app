@@ -37,7 +37,7 @@ MaggieApp::Application.configure do
     :port                 => 587,
     :domain               => "missmaggiemo.com",
     :user_name            => "admin@missmaggiemo.com",
-    :password             => "Maggie_Moreno_Admin-2014!",
+    :password             => "Maggie_Moreno_Admin-2014",
     :authentication       => :plain,
     :enable_starttls_auto => true
   }
