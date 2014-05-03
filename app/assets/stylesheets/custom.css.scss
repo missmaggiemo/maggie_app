@@ -312,40 +312,6 @@ footer {
 
 //about
 
-.resume {
-
-	li {
-		line-height: 175%;
-	}
-
-	.res-sect {
-		list-style: none;
-		font-weight: bold;
-		margin-bottom: 20px;
-
-		.sect {
-			margin-bottom: 10px;
-			margin-left: 10px;
-		}
-
-		h3 {
-			text-decoration: underline;
-			font-size: 1.5em;
-		}
-
-		ul {
-			list-style: none;
-			font-weight: normal;
-			font-size: 1.1em;
-			margin-bottom: 10px;
-
-			.minor-list {
-				font-size: 0.9em;
-			}
-		}
-	}
-}
-
 .about {
 	.topic {
 		flex-flow: row;
@@ -357,9 +323,18 @@ footer {
 		margin-bottom: 15px;
 
 		.pic {
+      display: block;
 			width: 30vw;
 			height: auto;
 			padding: 12px 12px 12px 0;
+      
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
+      
 		}
 
 		.text {
@@ -406,6 +381,7 @@ footer {
 	margin-bottom: 15px;
 
 	.pic {
+    display: block;
 		width: 30vw;
 		height: auto;
 		padding: 12px 12px 12px 0;
