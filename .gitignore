@@ -28,3 +28,7 @@ doc/
 
 config/environments/development.rb
 config/environments/test.rb
+
+# Ignore keys
+
+local_env.yml
