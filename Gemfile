@@ -32,6 +32,8 @@ gem 'jbuilder', '1.0.2'
 # JSON builder
 gem 'sprockets', '2.11.0'
 
+gem 'newrelic_rpm'
+
 
 group :development, :test do
   # gem 'sqlite3', '1.3.8'
